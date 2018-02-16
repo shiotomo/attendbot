@@ -23,6 +23,7 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    pg (1.0.0)
     ruboty (1.3.0)
       activesupport
       bundler
@@ -54,6 +55,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pg
   ruboty
   ruboty-slack_rtm
 

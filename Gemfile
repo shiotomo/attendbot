@@ -3,3 +3,4 @@ ruby '2.3.1'
 
 gem 'ruboty'
 gem 'ruboty-slack_rtm'
+gem 'pg'
