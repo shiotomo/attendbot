@@ -1,11 +1,11 @@
 module Ruboty
   module Handlers
-    class HelloWorld < Base
+    class Today_attend < Base
       # ここを変更すると返すやつを変えれる
-      on(/今日の日程\z/i, name: "hello_world", description: "Return Hello to World")
+      on(/今日の出席\z/i, name: "today_attend", description: "Return Hello to World")
 
-      def hello_world(message)
-        message.reply('今日の日程を返します!')
+      def today_attend(message)
+        message.reply('今日の出席を返します')
       end
     end
   end
