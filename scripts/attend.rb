@@ -9,7 +9,7 @@ module Ruboty
       def attend(message)
         # con = DbConfig.new().con
 
-        p message
+        # p message
 
         # テーブルの作成
         # begin
